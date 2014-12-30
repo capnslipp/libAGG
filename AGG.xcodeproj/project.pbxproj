@@ -955,6 +955,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				WARNING_CFLAGS = "-Wno-deprecated-register";
 			};
 			name = Debug;
 		};
@@ -994,6 +995,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = "-Wno-deprecated-register";
 			};
 			name = Release;
 		};
