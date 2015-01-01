@@ -42,6 +42,143 @@
 		D427617A1A55DC6F002C9564 /* agg_scale_ctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42760A91A55DC6F002C9564 /* agg_scale_ctrl.cpp */; };
 		D427617B1A55DC6F002C9564 /* agg_slider_ctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42760AA1A55DC6F002C9564 /* agg_slider_ctrl.cpp */; };
 		D427617C1A55DC6F002C9564 /* agg_spline_ctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D42760AB1A55DC6F002C9564 /* agg_spline_ctrl.cpp */; };
+		D42761861A55E2FC002C9564 /* agg_alpha_mask_u8.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FDD1A55DC6E002C9564 /* agg_alpha_mask_u8.h */; };
+		D42761871A55E2FC002C9564 /* agg_arc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FDE1A55DC6E002C9564 /* agg_arc.h */; };
+		D42761881A55E2FC002C9564 /* agg_array.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FDF1A55DC6E002C9564 /* agg_array.h */; };
+		D42761891A55E2FC002C9564 /* agg_arrowhead.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE01A55DC6E002C9564 /* agg_arrowhead.h */; };
+		D427618A1A55E2FC002C9564 /* agg_basics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE11A55DC6E002C9564 /* agg_basics.h */; };
+		D427618B1A55E2FC002C9564 /* agg_bezier_arc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE21A55DC6E002C9564 /* agg_bezier_arc.h */; };
+		D427618C1A55E2FC002C9564 /* agg_bitset_iterator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE31A55DC6E002C9564 /* agg_bitset_iterator.h */; };
+		D427618D1A55E2FC002C9564 /* agg_blur.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE41A55DC6E002C9564 /* agg_blur.h */; };
+		D427618E1A55E2FC002C9564 /* agg_bounding_rect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE51A55DC6E002C9564 /* agg_bounding_rect.h */; };
+		D427618F1A55E2FC002C9564 /* agg_bspline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE61A55DC6E002C9564 /* agg_bspline.h */; };
+		D42761901A55E2FC002C9564 /* agg_clip_liang_barsky.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE71A55DC6E002C9564 /* agg_clip_liang_barsky.h */; };
+		D42761911A55E2FC002C9564 /* agg_color_gray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE81A55DC6E002C9564 /* agg_color_gray.h */; };
+		D42761921A55E2FC002C9564 /* agg_color_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FE91A55DC6E002C9564 /* agg_color_rgba.h */; };
+		D42761931A55E2FC002C9564 /* agg_config.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FEA1A55DC6E002C9564 /* agg_config.h */; };
+		D42761941A55E2FC002C9564 /* agg_conv_adaptor_vcgen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FEB1A55DC6E002C9564 /* agg_conv_adaptor_vcgen.h */; };
+		D42761951A55E2FC002C9564 /* agg_conv_adaptor_vpgen.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FEC1A55DC6E002C9564 /* agg_conv_adaptor_vpgen.h */; };
+		D42761961A55E2FC002C9564 /* agg_conv_bspline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FED1A55DC6E002C9564 /* agg_conv_bspline.h */; };
+		D42761971A55E2FC002C9564 /* agg_conv_clip_polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FEE1A55DC6E002C9564 /* agg_conv_clip_polygon.h */; };
+		D42761981A55E2FC002C9564 /* agg_conv_clip_polyline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FEF1A55DC6E002C9564 /* agg_conv_clip_polyline.h */; };
+		D42761991A55E2FC002C9564 /* agg_conv_close_polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF01A55DC6E002C9564 /* agg_conv_close_polygon.h */; };
+		D427619A1A55E2FC002C9564 /* agg_conv_concat.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF11A55DC6E002C9564 /* agg_conv_concat.h */; };
+		D427619B1A55E2FC002C9564 /* agg_conv_contour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF21A55DC6E002C9564 /* agg_conv_contour.h */; };
+		D427619C1A55E2FC002C9564 /* agg_conv_curve.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF31A55DC6E002C9564 /* agg_conv_curve.h */; };
+		D427619D1A55E2FC002C9564 /* agg_conv_dash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF41A55DC6E002C9564 /* agg_conv_dash.h */; };
+		D427619E1A55E2FC002C9564 /* agg_conv_gpc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF51A55DC6E002C9564 /* agg_conv_gpc.h */; };
+		D427619F1A55E2FC002C9564 /* agg_conv_marker.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF61A55DC6E002C9564 /* agg_conv_marker.h */; };
+		D42761A01A55E2FC002C9564 /* agg_conv_marker_adaptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF71A55DC6E002C9564 /* agg_conv_marker_adaptor.h */; };
+		D42761A11A55E2FC002C9564 /* agg_conv_segmentator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF81A55DC6E002C9564 /* agg_conv_segmentator.h */; };
+		D42761A21A55E2FC002C9564 /* agg_conv_shorten_path.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FF91A55DC6E002C9564 /* agg_conv_shorten_path.h */; };
+		D42761A31A55E2FC002C9564 /* agg_conv_smooth_poly1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFA1A55DC6E002C9564 /* agg_conv_smooth_poly1.h */; };
+		D42761A41A55E2FC002C9564 /* agg_conv_stroke.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFB1A55DC6E002C9564 /* agg_conv_stroke.h */; };
+		D42761A51A55E2FC002C9564 /* agg_conv_transform.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFC1A55DC6E002C9564 /* agg_conv_transform.h */; };
+		D42761A61A55E2FC002C9564 /* agg_conv_unclose_polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFD1A55DC6E002C9564 /* agg_conv_unclose_polygon.h */; };
+		D42761A71A55E2FC002C9564 /* agg_curves.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFE1A55DC6E002C9564 /* agg_curves.h */; };
+		D42761A81A55E2FC002C9564 /* agg_dda_line.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FFF1A55DC6E002C9564 /* agg_dda_line.h */; };
+		D42761A91A55E2FC002C9564 /* agg_ellipse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760001A55DC6E002C9564 /* agg_ellipse.h */; };
+		D42761AA1A55E2FC002C9564 /* agg_ellipse_bresenham.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760011A55DC6E002C9564 /* agg_ellipse_bresenham.h */; };
+		D42761AB1A55E2FC002C9564 /* agg_embedded_raster_fonts.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760021A55DC6E002C9564 /* agg_embedded_raster_fonts.h */; };
+		D42761AC1A55E2FC002C9564 /* agg_font_cache_manager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760031A55DC6E002C9564 /* agg_font_cache_manager.h */; };
+		D42761AD1A55E2FC002C9564 /* agg_gamma_functions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760041A55DC6E002C9564 /* agg_gamma_functions.h */; };
+		D42761AE1A55E2FC002C9564 /* agg_gamma_lut.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760051A55DC6E002C9564 /* agg_gamma_lut.h */; };
+		D42761AF1A55E2FC002C9564 /* agg_glyph_raster_bin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760061A55DC6E002C9564 /* agg_glyph_raster_bin.h */; };
+		D42761B01A55E2FC002C9564 /* agg_gradient_lut.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760071A55DC6E002C9564 /* agg_gradient_lut.h */; };
+		D42761B11A55E2FC002C9564 /* agg_gsv_text.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760081A55DC6E002C9564 /* agg_gsv_text.h */; };
+		D42761B21A55E2FC002C9564 /* agg_image_accessors.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760091A55DC6E002C9564 /* agg_image_accessors.h */; };
+		D42761B31A55E2FC002C9564 /* agg_image_filters.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600A1A55DC6E002C9564 /* agg_image_filters.h */; };
+		D42761B41A55E2FC002C9564 /* agg_line_aa_basics.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600B1A55DC6E002C9564 /* agg_line_aa_basics.h */; };
+		D42761B51A55E2FC002C9564 /* agg_math.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600C1A55DC6E002C9564 /* agg_math.h */; };
+		D42761B61A55E2FC002C9564 /* agg_math_stroke.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600D1A55DC6E002C9564 /* agg_math_stroke.h */; };
+		D42761B71A55E2FC002C9564 /* agg_path_length.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600E1A55DC6E002C9564 /* agg_path_length.h */; };
+		D42761B81A55E2FC002C9564 /* agg_path_storage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427600F1A55DC6E002C9564 /* agg_path_storage.h */; };
+		D42761B91A55E2FC002C9564 /* agg_path_storage_integer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760101A55DC6E002C9564 /* agg_path_storage_integer.h */; };
+		D42761BA1A55E2FC002C9564 /* agg_pattern_filters_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760111A55DC6E002C9564 /* agg_pattern_filters_rgba.h */; };
+		D42761BB1A55E2FC002C9564 /* agg_pixfmt_amask_adaptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760121A55DC6E002C9564 /* agg_pixfmt_amask_adaptor.h */; };
+		D42761BC1A55E2FC002C9564 /* agg_pixfmt_gray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760131A55DC6E002C9564 /* agg_pixfmt_gray.h */; };
+		D42761BD1A55E2FC002C9564 /* agg_pixfmt_rgb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760141A55DC6E002C9564 /* agg_pixfmt_rgb.h */; };
+		D42761BE1A55E2FC002C9564 /* agg_pixfmt_rgb_packed.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760151A55DC6E002C9564 /* agg_pixfmt_rgb_packed.h */; };
+		D42761BF1A55E2FC002C9564 /* agg_pixfmt_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760161A55DC6E002C9564 /* agg_pixfmt_rgba.h */; };
+		D42761C01A55E2FC002C9564 /* agg_pixfmt_transposer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760171A55DC6E002C9564 /* agg_pixfmt_transposer.h */; };
+		D42761C11A55E2FC002C9564 /* agg_rasterizer_cells_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760181A55DC6E002C9564 /* agg_rasterizer_cells_aa.h */; };
+		D42761C21A55E2FC002C9564 /* agg_rasterizer_compound_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760191A55DC6E002C9564 /* agg_rasterizer_compound_aa.h */; };
+		D42761C31A55E2FC002C9564 /* agg_rasterizer_outline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601A1A55DC6E002C9564 /* agg_rasterizer_outline.h */; };
+		D42761C41A55E2FC002C9564 /* agg_rasterizer_outline_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601B1A55DC6E002C9564 /* agg_rasterizer_outline_aa.h */; };
+		D42761C51A55E2FC002C9564 /* agg_rasterizer_scanline_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601C1A55DC6E002C9564 /* agg_rasterizer_scanline_aa.h */; };
+		D42761C61A55E2FD002C9564 /* agg_rasterizer_sl_clip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601D1A55DC6E002C9564 /* agg_rasterizer_sl_clip.h */; };
+		D42761C71A55E2FD002C9564 /* agg_renderer_base.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601E1A55DC6E002C9564 /* agg_renderer_base.h */; };
+		D42761C81A55E2FD002C9564 /* agg_renderer_markers.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427601F1A55DC6E002C9564 /* agg_renderer_markers.h */; };
+		D42761C91A55E2FD002C9564 /* agg_renderer_mclip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760201A55DC6E002C9564 /* agg_renderer_mclip.h */; };
+		D42761CA1A55E2FD002C9564 /* agg_renderer_outline_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760211A55DC6E002C9564 /* agg_renderer_outline_aa.h */; };
+		D42761CB1A55E2FD002C9564 /* agg_renderer_outline_image.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760221A55DC6E002C9564 /* agg_renderer_outline_image.h */; };
+		D42761CC1A55E2FD002C9564 /* agg_renderer_primitives.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760231A55DC6E002C9564 /* agg_renderer_primitives.h */; };
+		D42761CD1A55E2FD002C9564 /* agg_renderer_raster_text.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760241A55DC6E002C9564 /* agg_renderer_raster_text.h */; };
+		D42761CE1A55E2FD002C9564 /* agg_renderer_scanline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760251A55DC6E002C9564 /* agg_renderer_scanline.h */; };
+		D42761CF1A55E2FD002C9564 /* agg_rendering_buffer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760261A55DC6E002C9564 /* agg_rendering_buffer.h */; };
+		D42761D01A55E2FD002C9564 /* agg_rendering_buffer_dynarow.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760271A55DC6E002C9564 /* agg_rendering_buffer_dynarow.h */; };
+		D42761D11A55E2FD002C9564 /* agg_rounded_rect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760281A55DC6E002C9564 /* agg_rounded_rect.h */; };
+		D42761D21A55E2FD002C9564 /* agg_scanline_bin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760291A55DC6E002C9564 /* agg_scanline_bin.h */; };
+		D42761D31A55E2FD002C9564 /* agg_scanline_boolean_algebra.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602A1A55DC6E002C9564 /* agg_scanline_boolean_algebra.h */; };
+		D42761D41A55E2FD002C9564 /* agg_scanline_p.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602B1A55DC6F002C9564 /* agg_scanline_p.h */; };
+		D42761D51A55E2FD002C9564 /* agg_scanline_storage_aa.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602C1A55DC6F002C9564 /* agg_scanline_storage_aa.h */; };
+		D42761D61A55E2FD002C9564 /* agg_scanline_storage_bin.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602D1A55DC6F002C9564 /* agg_scanline_storage_bin.h */; };
+		D42761D71A55E2FD002C9564 /* agg_scanline_u.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602E1A55DC6F002C9564 /* agg_scanline_u.h */; };
+		D42761D81A55E2FD002C9564 /* agg_shorten_path.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427602F1A55DC6F002C9564 /* agg_shorten_path.h */; };
+		D42761D91A55E2FD002C9564 /* agg_simul_eq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760301A55DC6F002C9564 /* agg_simul_eq.h */; };
+		D42761DA1A55E2FD002C9564 /* agg_span_allocator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760311A55DC6F002C9564 /* agg_span_allocator.h */; };
+		D42761DB1A55E2FD002C9564 /* agg_span_converter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760321A55DC6F002C9564 /* agg_span_converter.h */; };
+		D42761DC1A55E2FD002C9564 /* agg_span_gouraud.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760331A55DC6F002C9564 /* agg_span_gouraud.h */; };
+		D42761DD1A55E2FD002C9564 /* agg_span_gouraud_gray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760341A55DC6F002C9564 /* agg_span_gouraud_gray.h */; };
+		D42761DE1A55E2FD002C9564 /* agg_span_gouraud_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760351A55DC6F002C9564 /* agg_span_gouraud_rgba.h */; };
+		D42761DF1A55E2FD002C9564 /* agg_span_gradient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760361A55DC6F002C9564 /* agg_span_gradient.h */; };
+		D42761E01A55E2FD002C9564 /* agg_span_gradient_alpha.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760371A55DC6F002C9564 /* agg_span_gradient_alpha.h */; };
+		D42761E11A55E2FD002C9564 /* agg_span_image_filter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760381A55DC6F002C9564 /* agg_span_image_filter.h */; };
+		D42761E21A55E2FD002C9564 /* agg_span_image_filter_gray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760391A55DC6F002C9564 /* agg_span_image_filter_gray.h */; };
+		D42761E31A55E2FD002C9564 /* agg_span_image_filter_rgb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603A1A55DC6F002C9564 /* agg_span_image_filter_rgb.h */; };
+		D42761E41A55E2FD002C9564 /* agg_span_image_filter_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603B1A55DC6F002C9564 /* agg_span_image_filter_rgba.h */; };
+		D42761E51A55E2FD002C9564 /* agg_span_interpolator_adaptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603C1A55DC6F002C9564 /* agg_span_interpolator_adaptor.h */; };
+		D42761E61A55E2FD002C9564 /* agg_span_interpolator_linear.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603D1A55DC6F002C9564 /* agg_span_interpolator_linear.h */; };
+		D42761E71A55E2FD002C9564 /* agg_span_interpolator_persp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603E1A55DC6F002C9564 /* agg_span_interpolator_persp.h */; };
+		D42761E81A55E2FD002C9564 /* agg_span_interpolator_trans.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427603F1A55DC6F002C9564 /* agg_span_interpolator_trans.h */; };
+		D42761E91A55E2FD002C9564 /* agg_span_pattern_gray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760401A55DC6F002C9564 /* agg_span_pattern_gray.h */; };
+		D42761EA1A55E2FD002C9564 /* agg_span_pattern_rgb.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760411A55DC6F002C9564 /* agg_span_pattern_rgb.h */; };
+		D42761EB1A55E2FD002C9564 /* agg_span_pattern_rgba.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760421A55DC6F002C9564 /* agg_span_pattern_rgba.h */; };
+		D42761EC1A55E2FD002C9564 /* agg_span_solid.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760431A55DC6F002C9564 /* agg_span_solid.h */; };
+		D42761ED1A55E2FD002C9564 /* agg_span_subdiv_adaptor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760441A55DC6F002C9564 /* agg_span_subdiv_adaptor.h */; };
+		D42761EE1A55E2FD002C9564 /* agg_trans_affine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760451A55DC6F002C9564 /* agg_trans_affine.h */; };
+		D42761EF1A55E2FD002C9564 /* agg_trans_bilinear.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760461A55DC6F002C9564 /* agg_trans_bilinear.h */; };
+		D42761F01A55E2FD002C9564 /* agg_trans_double_path.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760471A55DC6F002C9564 /* agg_trans_double_path.h */; };
+		D42761F11A55E2FD002C9564 /* agg_trans_perspective.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760481A55DC6F002C9564 /* agg_trans_perspective.h */; };
+		D42761F21A55E2FD002C9564 /* agg_trans_single_path.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760491A55DC6F002C9564 /* agg_trans_single_path.h */; };
+		D42761F31A55E2FD002C9564 /* agg_trans_viewport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604A1A55DC6F002C9564 /* agg_trans_viewport.h */; };
+		D42761F41A55E2FD002C9564 /* agg_trans_warp_magnifier.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604B1A55DC6F002C9564 /* agg_trans_warp_magnifier.h */; };
+		D42761F51A55E2FD002C9564 /* agg_vcgen_bspline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604C1A55DC6F002C9564 /* agg_vcgen_bspline.h */; };
+		D42761F61A55E2FD002C9564 /* agg_vcgen_contour.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604D1A55DC6F002C9564 /* agg_vcgen_contour.h */; };
+		D42761F71A55E2FD002C9564 /* agg_vcgen_dash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604E1A55DC6F002C9564 /* agg_vcgen_dash.h */; };
+		D42761F81A55E2FD002C9564 /* agg_vcgen_markers_term.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427604F1A55DC6F002C9564 /* agg_vcgen_markers_term.h */; };
+		D42761F91A55E2FD002C9564 /* agg_vcgen_smooth_poly1.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760501A55DC6F002C9564 /* agg_vcgen_smooth_poly1.h */; };
+		D42761FA1A55E2FD002C9564 /* agg_vcgen_stroke.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760511A55DC6F002C9564 /* agg_vcgen_stroke.h */; };
+		D42761FB1A55E2FD002C9564 /* agg_vcgen_vertex_sequence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760521A55DC6F002C9564 /* agg_vcgen_vertex_sequence.h */; };
+		D42761FC1A55E2FD002C9564 /* agg_vertex_sequence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760531A55DC6F002C9564 /* agg_vertex_sequence.h */; };
+		D42761FD1A55E2FD002C9564 /* agg_vpgen_clip_polygon.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760541A55DC6F002C9564 /* agg_vpgen_clip_polygon.h */; };
+		D42761FE1A55E2FD002C9564 /* agg_vpgen_clip_polyline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760551A55DC6F002C9564 /* agg_vpgen_clip_polyline.h */; };
+		D42761FF1A55E2FD002C9564 /* agg_vpgen_segmentator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760561A55DC6F002C9564 /* agg_vpgen_segmentator.h */; };
+		D42762011A55E37B002C9564 /* agg_bezier_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760581A55DC6F002C9564 /* agg_bezier_ctrl.h */; };
+		D42762021A55E37B002C9564 /* agg_cbox_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760591A55DC6F002C9564 /* agg_cbox_ctrl.h */; };
+		D42762031A55E37B002C9564 /* agg_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605A1A55DC6F002C9564 /* agg_ctrl.h */; };
+		D42762041A55E37B002C9564 /* agg_gamma_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605B1A55DC6F002C9564 /* agg_gamma_ctrl.h */; };
+		D42762051A55E37B002C9564 /* agg_gamma_spline.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605C1A55DC6F002C9564 /* agg_gamma_spline.h */; };
+		D42762061A55E37B002C9564 /* agg_polygon_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605D1A55DC6F002C9564 /* agg_polygon_ctrl.h */; };
+		D42762071A55E37B002C9564 /* agg_rbox_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605E1A55DC6F002C9564 /* agg_rbox_ctrl.h */; };
+		D42762081A55E37B002C9564 /* agg_scale_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427605F1A55DC6F002C9564 /* agg_scale_ctrl.h */; };
+		D42762091A55E37C002C9564 /* agg_slider_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760601A55DC6F002C9564 /* agg_slider_ctrl.h */; };
+		D427620A1A55E37C002C9564 /* agg_spline_ctrl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760611A55DC6F002C9564 /* agg_spline_ctrl.h */; };
+		D427620C1A55E396002C9564 /* agg_platform_support.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42760651A55DC6F002C9564 /* agg_platform_support.h */; };
+		D427620E1A55E3D9002C9564 /* agg_color_conv.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427606C1A55DC6F002C9564 /* agg_color_conv.h */; };
+		D427620F1A55E3D9002C9564 /* agg_color_conv_rgb16.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427606D1A55DC6F002C9564 /* agg_color_conv_rgb16.h */; };
+		D42762101A55E3D9002C9564 /* agg_color_conv_rgb8.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427606E1A55DC6F002C9564 /* agg_color_conv_rgb8.h */; };
+		D42762131A55FE9D002C9564 /* gpc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FD91A55DC6E002C9564 /* gpc.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +188,179 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				D42761861A55E2FC002C9564 /* agg_alpha_mask_u8.h in CopyFiles */,
+				D42761871A55E2FC002C9564 /* agg_arc.h in CopyFiles */,
+				D42761881A55E2FC002C9564 /* agg_array.h in CopyFiles */,
+				D42761891A55E2FC002C9564 /* agg_arrowhead.h in CopyFiles */,
+				D427618A1A55E2FC002C9564 /* agg_basics.h in CopyFiles */,
+				D427618B1A55E2FC002C9564 /* agg_bezier_arc.h in CopyFiles */,
+				D427618C1A55E2FC002C9564 /* agg_bitset_iterator.h in CopyFiles */,
+				D427618D1A55E2FC002C9564 /* agg_blur.h in CopyFiles */,
+				D427618E1A55E2FC002C9564 /* agg_bounding_rect.h in CopyFiles */,
+				D427618F1A55E2FC002C9564 /* agg_bspline.h in CopyFiles */,
+				D42761901A55E2FC002C9564 /* agg_clip_liang_barsky.h in CopyFiles */,
+				D42761911A55E2FC002C9564 /* agg_color_gray.h in CopyFiles */,
+				D42761921A55E2FC002C9564 /* agg_color_rgba.h in CopyFiles */,
+				D42761931A55E2FC002C9564 /* agg_config.h in CopyFiles */,
+				D42761941A55E2FC002C9564 /* agg_conv_adaptor_vcgen.h in CopyFiles */,
+				D42761951A55E2FC002C9564 /* agg_conv_adaptor_vpgen.h in CopyFiles */,
+				D42761961A55E2FC002C9564 /* agg_conv_bspline.h in CopyFiles */,
+				D42761971A55E2FC002C9564 /* agg_conv_clip_polygon.h in CopyFiles */,
+				D42761981A55E2FC002C9564 /* agg_conv_clip_polyline.h in CopyFiles */,
+				D42761991A55E2FC002C9564 /* agg_conv_close_polygon.h in CopyFiles */,
+				D427619A1A55E2FC002C9564 /* agg_conv_concat.h in CopyFiles */,
+				D427619B1A55E2FC002C9564 /* agg_conv_contour.h in CopyFiles */,
+				D427619C1A55E2FC002C9564 /* agg_conv_curve.h in CopyFiles */,
+				D427619D1A55E2FC002C9564 /* agg_conv_dash.h in CopyFiles */,
+				D427619E1A55E2FC002C9564 /* agg_conv_gpc.h in CopyFiles */,
+				D427619F1A55E2FC002C9564 /* agg_conv_marker.h in CopyFiles */,
+				D42761A01A55E2FC002C9564 /* agg_conv_marker_adaptor.h in CopyFiles */,
+				D42761A11A55E2FC002C9564 /* agg_conv_segmentator.h in CopyFiles */,
+				D42761A21A55E2FC002C9564 /* agg_conv_shorten_path.h in CopyFiles */,
+				D42761A31A55E2FC002C9564 /* agg_conv_smooth_poly1.h in CopyFiles */,
+				D42761A41A55E2FC002C9564 /* agg_conv_stroke.h in CopyFiles */,
+				D42761A51A55E2FC002C9564 /* agg_conv_transform.h in CopyFiles */,
+				D42761A61A55E2FC002C9564 /* agg_conv_unclose_polygon.h in CopyFiles */,
+				D42761A71A55E2FC002C9564 /* agg_curves.h in CopyFiles */,
+				D42761A81A55E2FC002C9564 /* agg_dda_line.h in CopyFiles */,
+				D42761A91A55E2FC002C9564 /* agg_ellipse.h in CopyFiles */,
+				D42761AA1A55E2FC002C9564 /* agg_ellipse_bresenham.h in CopyFiles */,
+				D42761AB1A55E2FC002C9564 /* agg_embedded_raster_fonts.h in CopyFiles */,
+				D42761AC1A55E2FC002C9564 /* agg_font_cache_manager.h in CopyFiles */,
+				D42761AD1A55E2FC002C9564 /* agg_gamma_functions.h in CopyFiles */,
+				D42761AE1A55E2FC002C9564 /* agg_gamma_lut.h in CopyFiles */,
+				D42761AF1A55E2FC002C9564 /* agg_glyph_raster_bin.h in CopyFiles */,
+				D42761B01A55E2FC002C9564 /* agg_gradient_lut.h in CopyFiles */,
+				D42761B11A55E2FC002C9564 /* agg_gsv_text.h in CopyFiles */,
+				D42761B21A55E2FC002C9564 /* agg_image_accessors.h in CopyFiles */,
+				D42761B31A55E2FC002C9564 /* agg_image_filters.h in CopyFiles */,
+				D42761B41A55E2FC002C9564 /* agg_line_aa_basics.h in CopyFiles */,
+				D42761B51A55E2FC002C9564 /* agg_math.h in CopyFiles */,
+				D42761B61A55E2FC002C9564 /* agg_math_stroke.h in CopyFiles */,
+				D42761B71A55E2FC002C9564 /* agg_path_length.h in CopyFiles */,
+				D42761B81A55E2FC002C9564 /* agg_path_storage.h in CopyFiles */,
+				D42761B91A55E2FC002C9564 /* agg_path_storage_integer.h in CopyFiles */,
+				D42761BA1A55E2FC002C9564 /* agg_pattern_filters_rgba.h in CopyFiles */,
+				D42761BB1A55E2FC002C9564 /* agg_pixfmt_amask_adaptor.h in CopyFiles */,
+				D42761BC1A55E2FC002C9564 /* agg_pixfmt_gray.h in CopyFiles */,
+				D42761BD1A55E2FC002C9564 /* agg_pixfmt_rgb.h in CopyFiles */,
+				D42761BE1A55E2FC002C9564 /* agg_pixfmt_rgb_packed.h in CopyFiles */,
+				D42761BF1A55E2FC002C9564 /* agg_pixfmt_rgba.h in CopyFiles */,
+				D42761C01A55E2FC002C9564 /* agg_pixfmt_transposer.h in CopyFiles */,
+				D42761C11A55E2FC002C9564 /* agg_rasterizer_cells_aa.h in CopyFiles */,
+				D42761C21A55E2FC002C9564 /* agg_rasterizer_compound_aa.h in CopyFiles */,
+				D42761C31A55E2FC002C9564 /* agg_rasterizer_outline.h in CopyFiles */,
+				D42761C41A55E2FC002C9564 /* agg_rasterizer_outline_aa.h in CopyFiles */,
+				D42761C51A55E2FC002C9564 /* agg_rasterizer_scanline_aa.h in CopyFiles */,
+				D42761C61A55E2FD002C9564 /* agg_rasterizer_sl_clip.h in CopyFiles */,
+				D42761C71A55E2FD002C9564 /* agg_renderer_base.h in CopyFiles */,
+				D42761C81A55E2FD002C9564 /* agg_renderer_markers.h in CopyFiles */,
+				D42761C91A55E2FD002C9564 /* agg_renderer_mclip.h in CopyFiles */,
+				D42761CA1A55E2FD002C9564 /* agg_renderer_outline_aa.h in CopyFiles */,
+				D42761CB1A55E2FD002C9564 /* agg_renderer_outline_image.h in CopyFiles */,
+				D42761CC1A55E2FD002C9564 /* agg_renderer_primitives.h in CopyFiles */,
+				D42761CD1A55E2FD002C9564 /* agg_renderer_raster_text.h in CopyFiles */,
+				D42761CE1A55E2FD002C9564 /* agg_renderer_scanline.h in CopyFiles */,
+				D42761CF1A55E2FD002C9564 /* agg_rendering_buffer.h in CopyFiles */,
+				D42761D01A55E2FD002C9564 /* agg_rendering_buffer_dynarow.h in CopyFiles */,
+				D42761D11A55E2FD002C9564 /* agg_rounded_rect.h in CopyFiles */,
+				D42761D21A55E2FD002C9564 /* agg_scanline_bin.h in CopyFiles */,
+				D42761D31A55E2FD002C9564 /* agg_scanline_boolean_algebra.h in CopyFiles */,
+				D42761D41A55E2FD002C9564 /* agg_scanline_p.h in CopyFiles */,
+				D42761D51A55E2FD002C9564 /* agg_scanline_storage_aa.h in CopyFiles */,
+				D42761D61A55E2FD002C9564 /* agg_scanline_storage_bin.h in CopyFiles */,
+				D42761D71A55E2FD002C9564 /* agg_scanline_u.h in CopyFiles */,
+				D42761D81A55E2FD002C9564 /* agg_shorten_path.h in CopyFiles */,
+				D42761D91A55E2FD002C9564 /* agg_simul_eq.h in CopyFiles */,
+				D42761DA1A55E2FD002C9564 /* agg_span_allocator.h in CopyFiles */,
+				D42761DB1A55E2FD002C9564 /* agg_span_converter.h in CopyFiles */,
+				D42761DC1A55E2FD002C9564 /* agg_span_gouraud.h in CopyFiles */,
+				D42761DD1A55E2FD002C9564 /* agg_span_gouraud_gray.h in CopyFiles */,
+				D42761DE1A55E2FD002C9564 /* agg_span_gouraud_rgba.h in CopyFiles */,
+				D42761DF1A55E2FD002C9564 /* agg_span_gradient.h in CopyFiles */,
+				D42761E01A55E2FD002C9564 /* agg_span_gradient_alpha.h in CopyFiles */,
+				D42761E11A55E2FD002C9564 /* agg_span_image_filter.h in CopyFiles */,
+				D42761E21A55E2FD002C9564 /* agg_span_image_filter_gray.h in CopyFiles */,
+				D42761E31A55E2FD002C9564 /* agg_span_image_filter_rgb.h in CopyFiles */,
+				D42761E41A55E2FD002C9564 /* agg_span_image_filter_rgba.h in CopyFiles */,
+				D42761E51A55E2FD002C9564 /* agg_span_interpolator_adaptor.h in CopyFiles */,
+				D42761E61A55E2FD002C9564 /* agg_span_interpolator_linear.h in CopyFiles */,
+				D42761E71A55E2FD002C9564 /* agg_span_interpolator_persp.h in CopyFiles */,
+				D42761E81A55E2FD002C9564 /* agg_span_interpolator_trans.h in CopyFiles */,
+				D42761E91A55E2FD002C9564 /* agg_span_pattern_gray.h in CopyFiles */,
+				D42761EA1A55E2FD002C9564 /* agg_span_pattern_rgb.h in CopyFiles */,
+				D42761EB1A55E2FD002C9564 /* agg_span_pattern_rgba.h in CopyFiles */,
+				D42761EC1A55E2FD002C9564 /* agg_span_solid.h in CopyFiles */,
+				D42761ED1A55E2FD002C9564 /* agg_span_subdiv_adaptor.h in CopyFiles */,
+				D42761EE1A55E2FD002C9564 /* agg_trans_affine.h in CopyFiles */,
+				D42761EF1A55E2FD002C9564 /* agg_trans_bilinear.h in CopyFiles */,
+				D42761F01A55E2FD002C9564 /* agg_trans_double_path.h in CopyFiles */,
+				D42761F11A55E2FD002C9564 /* agg_trans_perspective.h in CopyFiles */,
+				D42761F21A55E2FD002C9564 /* agg_trans_single_path.h in CopyFiles */,
+				D42761F31A55E2FD002C9564 /* agg_trans_viewport.h in CopyFiles */,
+				D42761F41A55E2FD002C9564 /* agg_trans_warp_magnifier.h in CopyFiles */,
+				D42761F51A55E2FD002C9564 /* agg_vcgen_bspline.h in CopyFiles */,
+				D42761F61A55E2FD002C9564 /* agg_vcgen_contour.h in CopyFiles */,
+				D42761F71A55E2FD002C9564 /* agg_vcgen_dash.h in CopyFiles */,
+				D42761F81A55E2FD002C9564 /* agg_vcgen_markers_term.h in CopyFiles */,
+				D42761F91A55E2FD002C9564 /* agg_vcgen_smooth_poly1.h in CopyFiles */,
+				D42761FA1A55E2FD002C9564 /* agg_vcgen_stroke.h in CopyFiles */,
+				D42761FB1A55E2FD002C9564 /* agg_vcgen_vertex_sequence.h in CopyFiles */,
+				D42761FC1A55E2FD002C9564 /* agg_vertex_sequence.h in CopyFiles */,
+				D42761FD1A55E2FD002C9564 /* agg_vpgen_clip_polygon.h in CopyFiles */,
+				D42761FE1A55E2FD002C9564 /* agg_vpgen_clip_polyline.h in CopyFiles */,
+				D42761FF1A55E2FD002C9564 /* agg_vpgen_segmentator.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42762001A55E34B002C9564 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)/ctrl";
+			dstSubfolderSpec = 16;
+			files = (
+				D42762011A55E37B002C9564 /* agg_bezier_ctrl.h in CopyFiles */,
+				D42762021A55E37B002C9564 /* agg_cbox_ctrl.h in CopyFiles */,
+				D42762031A55E37B002C9564 /* agg_ctrl.h in CopyFiles */,
+				D42762041A55E37B002C9564 /* agg_gamma_ctrl.h in CopyFiles */,
+				D42762051A55E37B002C9564 /* agg_gamma_spline.h in CopyFiles */,
+				D42762061A55E37B002C9564 /* agg_polygon_ctrl.h in CopyFiles */,
+				D42762071A55E37B002C9564 /* agg_rbox_ctrl.h in CopyFiles */,
+				D42762081A55E37B002C9564 /* agg_scale_ctrl.h in CopyFiles */,
+				D42762091A55E37C002C9564 /* agg_slider_ctrl.h in CopyFiles */,
+				D427620A1A55E37C002C9564 /* agg_spline_ctrl.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D427620B1A55E388002C9564 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)/platform";
+			dstSubfolderSpec = 16;
+			files = (
+				D427620C1A55E396002C9564 /* agg_platform_support.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D427620D1A55E39E002C9564 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)/util";
+			dstSubfolderSpec = 16;
+			files = (
+				D427620E1A55E3D9002C9564 /* agg_color_conv.h in CopyFiles */,
+				D427620F1A55E3D9002C9564 /* agg_color_conv_rgb16.h in CopyFiles */,
+				D42762101A55E3D9002C9564 /* agg_color_conv_rgb8.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D42762121A55FE8A002C9564 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D42762131A55FE9D002C9564 /* gpc.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,6 +822,10 @@
 				D4275E0D1A55D938002C9564 /* Sources */,
 				D4275E0E1A55D938002C9564 /* Frameworks */,
 				D4275E0F1A55D938002C9564 /* CopyFiles */,
+				D42762001A55E34B002C9564 /* CopyFiles */,
+				D427620B1A55E388002C9564 /* CopyFiles */,
+				D427620D1A55E39E002C9564 /* CopyFiles */,
+				D42762121A55FE8A002C9564 /* CopyFiles */,
 			);
 			buildRules = (
 			);
