@@ -179,6 +179,7 @@
 		D427620F1A55E3D9002C9564 /* agg_color_conv_rgb16.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427606D1A55DC6F002C9564 /* agg_color_conv_rgb16.h */; };
 		D42762101A55E3D9002C9564 /* agg_color_conv_rgb8.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D427606E1A55DC6F002C9564 /* agg_color_conv_rgb8.h */; };
 		D42762131A55FE9D002C9564 /* gpc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D4275FD91A55DC6E002C9564 /* gpc.h */; };
+		D42D08391A57512500D108E8 /* agg.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = D42D08371A574FB800D108E8 /* agg.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -364,6 +365,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D42D08381A57511F00D108E8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				D42D08391A57512500D108E8 /* agg.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -540,6 +551,7 @@
 		D42760A91A55DC6F002C9564 /* agg_scale_ctrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = agg_scale_ctrl.cpp; sourceTree = "<group>"; };
 		D42760AA1A55DC6F002C9564 /* agg_slider_ctrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = agg_slider_ctrl.cpp; sourceTree = "<group>"; };
 		D42760AB1A55DC6F002C9564 /* agg_spline_ctrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = agg_spline_ctrl.cpp; sourceTree = "<group>"; };
+		D42D08371A574FB800D108E8 /* agg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agg.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -556,6 +568,7 @@
 		D4275E081A55D938002C9564 = {
 			isa = PBXGroup;
 			children = (
+				D42D08371A574FB800D108E8 /* agg.h */,
 				D4275E4E1A55DC6E002C9564 /* agg */,
 				D4275E121A55D938002C9564 /* Products */,
 			);
@@ -826,6 +839,7 @@
 				D427620B1A55E388002C9564 /* CopyFiles */,
 				D427620D1A55E39E002C9564 /* CopyFiles */,
 				D42762121A55FE8A002C9564 /* CopyFiles */,
+				D42D08381A57511F00D108E8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
